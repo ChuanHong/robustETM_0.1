@@ -7,4 +7,4 @@ Author: Chuan Hong, Yong Chen, Yang Ning, Hao Wu
 Maintainer: Chuan Hong <hong.chuan.hannah@gmail.come>
 Description: The package robustETM consists of the functions to perform pseudolikelihood based EM test for homogeneity in generalized exponential tilt mixture models in R.
 License: Apache License Version 2.0, January 2004 
-Packaged: 2014-10-28 17:45:55 UTC; hwu
+Packaged: 2014-11-28 11:00:00 UTC; chong
