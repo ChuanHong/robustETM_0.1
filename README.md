@@ -9,6 +9,7 @@ Installation
 To get the current development version from github:
 
 install.packages("devtools")
+
 devtools::install_github("ChuanHong/robustETM_0.1")
 
 Alternatively, dowload robustETM_1.0.tar.gz from https://github.com/ChuanHong/robustETM.gz. Then install the package:
