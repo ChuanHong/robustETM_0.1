@@ -1,17 +1,21 @@
 robustETM_0.1
 =============
-
 Version 0.1 of robustETM package
 
+Welcome to robustETM!
 
 Installation
 
-To get the current development version from github:
-
+1. Automated Installation (get the current development version from github using devtools)
+----------------------------------
 install.packages("devtools")
 
 devtools::install_github("ChuanHong/robustETM_0.1")
 
-Alternatively, manually dowload robustETM_0.1.tar.gz from https://github.com/ChuanHong/robustETM.gz. Then install the package:
+2. Alternative Installation (if 1 fails, try the alternative installation)
+-----------------------------------
+Visit https://github.com/ChuanHong/robustETM.gz
 
-R CMD INSTALL robustETM_0.1.tar.gz
+Manually dowload robustETM_0.1.tar.gz from https://github.com/ChuanHong/robustETM.gz
+
+Install the package: R CMD INSTALL robustETM_0.1.tar.gz
