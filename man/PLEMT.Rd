@@ -5,7 +5,7 @@
 Pseudolikelihood based EM test (PLEMT) 
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+The function conducts the pseudolikelihood based EM test for homogeneity in generalized exponential tilt mixture models
 }
 \usage{
 PLEMT(Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", "gamma", "mixture"))
@@ -13,19 +13,19 @@ PLEMT(Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", "gamma", "mixture"))
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{Y1}{
-%%     ~~Describe \code{Y1} here~~
+the vector of methylation beta values in the case group for one marker
 }
   \item{Y2}{
-%%     ~~Describe \code{Y2} here~~
+the vector of methylation beta values in the control group for one marker
 }
   \item{cc}{
-%%     ~~Describe \code{cc} here~~
+the penalty for the modified pseudolikelihood
 }
   \item{niter}{
-%%     ~~Describe \code{niter} here~~
+the number iterations for the EM algorithm
 }
   \item{distn}{
-%%     ~~Describe \code{distn} here~~
+name of the distribution for the methylation beta values
 }
 }
 \details{
@@ -42,7 +42,7 @@ PLEMT(Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", "gamma", "mixture"))
 %% ~put references to the literature/web site here ~
 }
 \author{
-%%  ~~who you are~~
+Chuan Hong, Yong Chen, Yang Ning, Hao Wu 
 }
 \note{
 %%  ~~further notes~~
@@ -54,9 +54,9 @@ PLEMT(Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", "gamma", "mixture"))
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+myresult=PLEMT1(dat.case[2,], dat.ctrl[2,], distn="beta")
+}
+
 
 ## The function is currently defined as
 function (Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", 
@@ -73,7 +73,7 @@ function (Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm",
     return(res)
   }
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{Conditional likelihood}
+\keyword{Penalized likelihood}
+\keyword{Semiparametric mixture model}
+

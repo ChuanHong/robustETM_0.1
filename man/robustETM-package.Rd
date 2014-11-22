@@ -3,8 +3,8 @@
 \alias{robustETM}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+This package contains functions for exponentianl tilt models
+~~ robustETM ~~
 }
 \description{
 More about what it does (maybe more than one line)
@@ -22,9 +22,9 @@ License: \tab What license is it under?\cr
 ~~ functions ~~
 }
 \author{
-Who wrote it
+Chuan Hong, Yong Chen, Yang Ning, Hao Wu
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Maintainer: Chuan Hong <hong.chuan.hannah@gmail.com>
 ~~ The author and/or maintainer of the package ~~
 }
 \references{
