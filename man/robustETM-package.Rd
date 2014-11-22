@@ -3,12 +3,10 @@
 \alias{robustETM}
 \docType{package}
 \title{
-This package contains functions for exponentianl tilt models
-~~ robustETM ~~
+Robust tests for exponential tilt models (robustETM)
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+Conduct robust tests for homogeientiy in exponential tilt models
 }
 \details{
 \tabular{ll}{
@@ -16,7 +14,7 @@ Package: \tab robustETM\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2014-11-22\cr
-License: \tab What license is it under?\cr
+License: GPL (version 2 or later)
 }
 ~~ An overview of how to use the package, including the most important ~~
 ~~ functions ~~
@@ -25,18 +23,20 @@ License: \tab What license is it under?\cr
 Chuan Hong, Yong Chen, Yang Ning, Hao Wu
 
 Maintainer: Chuan Hong <hong.chuan.hannah@gmail.com>
-~~ The author and/or maintainer of the package ~~
 }
 \references{
-~~ Literature or other references for background information ~~
+Submitted to Biometrics:
+PLEMT: A Novel Pseudolikelihood Based EM Test for Homogeneity in
+Generalized Exponential Tilt Mixture Models
 }
 ~~ Optionally other standard keywords, one per line, from file KEYWORDS in ~~
 ~~ the R documentation directory ~~
-\keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
+\keyword{robustETM}
+\keyword{PLEMT}
+\keyword{Conditional likelihood}
+\keyword{Penalized likelihood}
+\keyword{Semiparametric mixture model}
+
 \examples{
-~~ simple examples of the most important functions ~~
+myresult=PLEMT(dat.case[2,], dat.ctrl[2,], distn="beta")
 }

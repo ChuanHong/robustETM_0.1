@@ -1,16 +1,12 @@
 \name{PLEMT}
 \alias{PLEMT}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-Pseudolikelihood based EM test (PLEMT) 
-}
+\title{Pseudolikelihood based EM test (PLEMT)}
 \description{
-The function conducts the pseudolikelihood based EM test for homogeneity in generalized exponential tilt mixture models
+   Conducts the pseudolikelihood based EM test for homogeneity in generalized    exponential tilt mixture models.
 }
 \usage{
 PLEMT(Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", "gamma", "mixture"))
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{Y1}{
 the vector of methylation beta values in the case group for one marker
@@ -28,35 +24,19 @@ the number iterations for the EM algorithm
 name of the distribution for the methylation beta values
 }
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
+
 \references{
-%% ~put references to the literature/web site here ~
+Submitted to Biometrics:
+PLEMT: A Novel Pseudolikelihood Based EM Test for Homogeneity in
+Generalized Exponential Tilt Mixture Models
 }
 \author{
 Chuan Hong, Yong Chen, Yang Ning, Hao Wu 
 }
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
-myresult=PLEMT1(dat.case[2,], dat.ctrl[2,], distn="beta")
+myresult=PLEMT(dat.case[2,], dat.ctrl[2,], distn="beta")
 }
-
 
 ## The function is currently defined as
 function (Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", 
