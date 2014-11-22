@@ -5,7 +5,7 @@
 Pseudolikelihood based EM test (PLEMT) 
 }
 \description{
-The function conducts the pseudolikelihood based EM test for homogeneity in generalized exponential tilt mixture models
+%%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
 PLEMT(Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", "gamma", "mixture"))
@@ -13,19 +13,19 @@ PLEMT(Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", "gamma", "mixture"))
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{Y1}{
-the vector of methylation beta values in the case group for one marker
+%%     ~~Describe \code{Y1} here~~
 }
   \item{Y2}{
-the vector of methylation beta values in the control group for one marker
+%%     ~~Describe \code{Y2} here~~
 }
   \item{cc}{
-the penalty for the modified pseudolikelihood
+%%     ~~Describe \code{cc} here~~
 }
   \item{niter}{
-the number iterations for the EM algorithm
+%%     ~~Describe \code{niter} here~~
 }
   \item{distn}{
-name of the distribution for the methylation beta values
+%%     ~~Describe \code{distn} here~~
 }
 }
 \details{
@@ -42,7 +42,7 @@ name of the distribution for the methylation beta values
 %% ~put references to the literature/web site here ~
 }
 \author{
-Chuan Hong, Yong Chen, Yang Ning, Hao Wu 
+%%  ~~who you are~~
 }
 \note{
 %%  ~~further notes~~
@@ -54,9 +54,9 @@ Chuan Hong, Yong Chen, Yang Ning, Hao Wu
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-myresult=PLEMT1(dat.case[2,], dat.ctrl[2,], distn="beta")
-}
-
+##---- Should be DIRECTLY executable !! ----
+##-- ==>  Define data, use random,
+##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
 function (Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm", 
@@ -73,10 +73,7 @@ function (Y1, Y2, cc = 2, niter = 3, distn = c("beta", "norm",
     return(res)
   }
 }
-\keyword{Conditional likelihood}
-\keyword{Penalized likelihood}
-\keyword{Semiparametric mixture model}
-
+% Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 \keyword{ ~kwd1 }
 \keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
