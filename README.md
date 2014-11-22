@@ -1,10 +1,9 @@
 robustETM_0.1
 =============
-Version 0.1 of robustETM package
-
-Welcome to robustETM!
+Welcome to version 0.1 of robustETM package!
 
 Installation
+-------------
 
 1. Automated Installation (get the current development version from github using devtools)
 ----------------------------------
