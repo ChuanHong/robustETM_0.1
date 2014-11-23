@@ -1,9 +1,8 @@
-robustETM_0.1
-=============
+
 Welcome to version 0.1 of robustETM package!
 
 Installation
--------------
+=============
 
 1. Automated Installation (get the current development version from github using devtools)
 ----------------------------------
@@ -24,7 +23,7 @@ Manually dowload robustETM_0.1.tar.gz from https://github.com/ChuanHong/robustET
 Install the package: R CMD INSTALL robustETM_0.1.tar.gz
 
 Sample code
---------------
+=============
 library("robustETM")
 data(methyl) 
 myresult=PLEMT(dat.case[c(1:2),], dat.ctrl[c(1:2),], cc=2, niter=3, distn="beta") 
