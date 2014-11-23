@@ -94,7 +94,7 @@ PLEMT <- function(Y1, Y2, cc=2, niter=3, distn=c("beta","norm", "gamma", "mixtur
     n0 <- nrow(Y1)
     result <- rep(0, n0)
     for(i in 1:n0)
-        result[i] <- PLEMT1(Y1[i,], Y2[i,], cc, ninter, distn)
+        result[i] <- PLEMT1(Y1[i,], Y2[i,], cc, niter, distn)
 
     ## make other fields, like p-values, FDR, etc.
     ## Modify the following two lines for computing p-values and FDR, if needed.

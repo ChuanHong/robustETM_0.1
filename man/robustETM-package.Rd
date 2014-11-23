@@ -38,5 +38,6 @@ Generalized Exponential Tilt Mixture Models
 \keyword{Semiparametric mixture model}
 
 \examples{
-myresult=PLEMT(dat.case[2,], dat.ctrl[2,], distn="beta")
+data(methyl)
+myresult=PLEMT(dat.case[c(1:2),], dat.ctrl[c(1:2),], cc=2, niter=3, distn="beta")
 }
