@@ -9,9 +9,13 @@ Installation
 ----------------------------------
 install.packages("devtools")
 
-devtools::install_github("ChuanHong/robustETM_0.1")
+library(devtools)
 
-2. Alternative Installation (if 1 fails, try the alternative installation)
+dev_mode(on=T)
+
+install_github("robustETM_0.1", username="ChuanHong")
+
+2. Alternative Installation 
 -----------------------------------
 Visit https://github.com/ChuanHong/robustETM.gz
 
