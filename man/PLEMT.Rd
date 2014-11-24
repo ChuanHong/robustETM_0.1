@@ -33,7 +33,7 @@ PLEMT: A Novel Pseudolikelihood Based EM Test for Homogeneity in Generalized Exp
 Chuan Hong, Yong Chen, Yang Ning, Hao Wu 
 }
 \examples{
-data(methyl)
+data(pseudo_dat)
 myresult=PLEMT(dat.case[c(1:2),], dat.ctrl[c(1:2),], cc=2, niter=3, distn="beta")
 }
 \keyword{Conditional likelihood}
