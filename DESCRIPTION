@@ -5,5 +5,5 @@ Version: 0.1
 Date: 2014-11-22
 Author: Chuan Hong, Yong Chen, Yang Ning, Hao Wu
 Maintainer: Chuan Hong <hong.chuan.hannah@gmail.com>
-Description: Conduct robust tests for homogeientiy in exponential tilt models
+Description: Conduct robust tests for homogeneity in exponential tilt models
 License: GPL (version 2 or later)
