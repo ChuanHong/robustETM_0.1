@@ -22,7 +22,8 @@ Chuan Hong, Yong Chen, Yang Ning, Hao Wu
 Maintainer: Chuan Hong <hong.chuan.hannah@gmail.com>
 }
 \references{
-Submitted to Biometrics:
+Submitted to Biometrics
+
 PLEMT: A Novel Pseudolikelihood Based EM Test for Homogeneity in
 Generalized Exponential Tilt Mixture Models
 }
