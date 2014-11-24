@@ -4,7 +4,7 @@ Welcome to version 0.1 of robustETM package!
 Installation
 =============
 
-#Windows users need to install "Rtools"; MAC users need to install "Xcode". 
+#Windows users need to install "Rtools"; Mac users need to install "Xcode". 
 install.packages("devtools")
 
 library(devtools)
