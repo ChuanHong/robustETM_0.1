@@ -4,7 +4,11 @@ Welcome to version 0.1 of robustETM package!
 Installation
 =============
 
-#Note: Windows users need to have "Rtools"; Mac users need to have "Xcode". 
+#Note: Windows users need to have "Rtools" https://www.biostat.wisc.edu/~kbroman/Rintro/Rwinpack.html;
+
+Mac users need to have "Xcode". 
+
+
 install.packages("devtools")
 
 library(devtools)
