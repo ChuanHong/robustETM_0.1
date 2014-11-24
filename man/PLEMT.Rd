@@ -25,7 +25,8 @@ name of the distribution for the methylation beta values
 }
 }
 \references{
-Submitted to Biometrics:
+Submitted to Biometrics
+
 PLEMT: A Novel Pseudolikelihood Based EM Test for Homogeneity in Generalized Exponential Tilt Mixture Models
 }
 \author{
