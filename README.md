@@ -1,4 +1,4 @@
-Welcome to version 0.1 of robustETM package!
+#Welcome to version 0.1 of robustETM package!
 
 Installation
 =============
